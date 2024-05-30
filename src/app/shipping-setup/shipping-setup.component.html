@@ -1,0 +1,125 @@
+<form action="">
+  <div
+    class="max-w-4xl mx-auto lg:px-[4rem] px-[1rem] bg-white rounded-sm shadow-lg py-[2rem] mb-[3rem] rounded-b-lg"
+  >
+    <div
+      class="border border-[#D0D5DD] lg:py-[1rem] px-3 py-3 flex w-full justify-between items-center mb-[2rem] text-sm lg:text-lg text-[#47494a]"
+    >
+      <h1>Set up your own fixed rates</h1>
+      <label class="switch">
+        <input type="checkbox" checked />
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div
+      class="border border-[#D0D5DD] lg:py-[1rem] py-3 text-[#47494a] px-3 flex w-full justify-between items-center mb-[2rem] text-sm lg:text-lg"
+    >
+      <h1>Use Carrier or app to calculate rates</h1>
+      <label class="switch">
+        <input type="checkbox" false />
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="py-2 text-[#72777A]">
+      <label for="shipping-speed" class="text-[#000]">Shipping speed</label>
+      <div
+        class="border border-[#D0D5DD] rounded-lg py-5 bg-white flex justify-between items-center w-full mt-[0.5rem]"
+      >
+        <select
+          name="shipping speed"
+          class="outline-none gap-3 lg:px-[1rem] bg-white lg:w-[96%] lg:ml-[1rem] w-full"
+          id="shippng-speed"
+        >
+          <option value="two">2-4 business days</option>
+          <option value="five">5 days</option>
+          <option value="seven">7 days</option>
+        </select>
+      </div>
+    </div>
+    <div class="py-2 text-[#72777A]">
+      <label for="shipping-speed" class="text-[#000]">Carrier Name</label>
+      <div
+        class="border border-[#D0D5DD] rounded-lg py-5 bg-white flex justify-between items-center w-full mt-[0.5rem]"
+      >
+        <select
+          name="shipping speed"
+          class="outline-none gap-3 lg:px-[1rem] bg-white lg:w-[96%] lg:ml-[1rem] w-full"
+          id="shippng-speed"
+        >
+          <option value="two">DHL Express</option>
+          <option value="five">FedEx</option>
+          <option value="seven">UPS</option>
+        </select>
+      </div>
+    </div>
+    <div class="flex justify-between items-center gap-3 text-[#72777A]">
+      <div class="py-2 w-full">
+        <label for="shipping-speed" class="text-[#000]">Fixed Price</label>
+        <div
+          class="border border-[#D0D5DD] rounded-lg py-5 bg-white flex justify-between items-center w-full mt-[0.5rem]"
+        >
+          <select
+            name="shipping speed"
+            class="outline-none gap-3 lg:px-[1rem] bg-white lg:w-[90%] lg:ml-[1rem] w-full"
+            id="shippng-speed"
+          >
+            <option value="two">$0.00</option>
+            <option value="five">$10.00</option>
+            <option value="seven">$20.00</option>
+          </select>
+        </div>
+      </div>
+      <div class="py-2 w-full text-[#72777A]">
+        <label for="shipping-speed" class="text-[#000000]">Tax Rates</label>
+        <div
+          class="border border-[#D0D5DD] rounded-lg py-5 bg-white flex justify-between items-center w-full mt-[0.5rem]"
+        >
+          <select
+            name="shipping speed"
+            class="outline-none gap-3 lg:px-[1rem] bg-white lg:ml-[1rem] lg:w-[90%] w-full"
+            id="shippng-speed"
+          >
+            <option value="two">Standard (24%)</option>
+            <option value="five">Standard (24%)</option>
+            <option value="seven">Standard (24%)</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div
+      class="border border-[#D0D5DD] rounded-lg py-2 bg-white w-full mt-[0.5rem]"
+    >
+      <div class="flex justify-between items-center px-[1rem] font-medium">
+        <div>summary</div>
+        <div>Cost</div>
+      </div>
+      <div
+        class="flex justify-between items-center px-[1rem] p-3 text-[#72777A]"
+      >
+        <div>Fixed Price</div>
+        <div class="mr-2">$0.00</div>
+      </div>
+
+      <div
+        class="flex justify-between items-center px-[1rem] p-3 text-[#72777A]"
+      >
+        <div>Tax</div>
+        <div class="mr-2">$0.00</div>
+      </div>
+      <div
+        class="flex justify-between items-center px-[1rem] p-3 text-[#72777A]"
+      >
+        <div>Total</div>
+        <div class="mr-2">$0.00</div>
+      </div>
+    </div>
+    <div class="lg:pb-[3rem] pb-[2rem]">
+      <button
+        type="submit"
+        class="py-4 rounded-md bg-[#1889F1] w-full mt-[2rem] mb-[1rem]"
+      >
+        <h1 class="text-white text-center">Next</h1>
+      </button>
+    </div>
+  </div>
+</form>
